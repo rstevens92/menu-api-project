@@ -1,0 +1,27 @@
+.menuCard {
+    display: flex;
+    outline: 1px solid black;
+
+    .description {
+        padding: 10px;
+        outline: 1px solid black;
+    }
+
+    .dietaryInformation {
+        padding: 10px;
+        outline: 1px solid black;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        outline: 1px solid black;
+
+        button {
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
