@@ -33,7 +33,7 @@ const menuData = [
         menuId: 3,
         isFood: true,
         menuSection: "Starter",
-        menuName: "olives",
+        menuName: "Olives",
         menuImg: "public\Images\Starters\Olives.png",
         menuDescription: "Selection of olives.",
         menuPrice: "£4.99",

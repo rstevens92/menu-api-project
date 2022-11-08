@@ -28,7 +28,7 @@ const MenuItemCard = (props) => {
             <p>Dietary information</p>
         </div>
         <div className={styles.buttons}>
-            <button onClick={() => setCount(count-1)}>-</button>
+            <button disabled={count ? false : true} onClick={() => setCount(count-1)}>-</button>
             <h3>{count}</h3>
             <button onClick={() => setCount(count+1)}>+</button>
         </div>
