@@ -17,7 +17,7 @@ const MenuItemCard = (props) => {
 
   return (
     <div className={styles.menuCard}>
-        <h1>{menuName}</h1>
+        <h1 className={styles.menuName}>{menuName}</h1>
         {/* <img src={menuImg} alt="menu item picture" /> */}
         <div className={styles.description}>
             <p>{menuDescription}</p>
