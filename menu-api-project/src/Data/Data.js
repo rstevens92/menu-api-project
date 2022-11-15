@@ -1,7 +1,6 @@
 const menuData = [
     {
         menuId: 1,
-        isFood: true,
         menuSection: "Starter",
         menuName: "Prawn Cocktail",
         menuImg: "../../public\Images\Starters\Prawn-Cocktail.png",
@@ -12,11 +11,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+        isInBasket: false,
     },
     {
         menuId: 2,
-        isFood: true,
         menuSection: "Starter",
         menuName: "Arancini",
         menuImg: "public\Images\Starters\arancini.png",
@@ -27,11 +26,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 3,
-        isFood: true,
         menuSection: "Starter",
         menuName: "Olives",
         menuImg: "public\Images\Starters\Olives.png",
@@ -42,11 +41,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 4,
-        isFood: true,
         menuSection: "Starter",
         menuName: "Summer Salad",
         menuImg: "public\Images\Starters\Summer-salad.png",
@@ -57,11 +56,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 5,
-        isFood: true,
         menuSection: "Starter",
         menuName: "Bruschetta",
         menuImg: "public\Images\Starters\Bruschetta.png",
@@ -72,11 +71,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 6,
-        isFood: true,
         menuSection: "Pizza",
         menuName: "Italiano Pizza",
         menuImg: "public\Images\Pizza\italiano-pizza.png",
@@ -87,11 +86,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 7,
-        isFood: true,
         menuSection: "Pizza",
         menuName: "Margarita Pizza",
         menuImg: "public\Images\Pizza\margarita-pizza.png",
@@ -102,11 +101,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 8,
-        isFood: true,
         menuSection: "Pizza",
         menuName: "Pepperoni Pizza",
         menuImg: "public\Images\Pizza\pepperoni-pizza.png",
@@ -117,11 +116,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 9,
-        isFood: true,
         menuSection: "Pizza",
         menuName: "Vegan Pizza",
         menuImg: "public\Images\Pizza\vegan-pizza.png",
@@ -132,11 +131,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 10,
-        isFood: true,
         menuSection: "Pasta",
         menuName: "Carbonara",
         menuImg: "public\Images\Pasta\Carbonara.png",
@@ -147,11 +146,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 11,
-        isFood: true,
         menuSection: "Pasta",
         menuName: "Chicken Alfredo",
         menuImg: "public\Images\Pasta\chicken-alfredo.png",
@@ -162,11 +161,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 12,
-        isFood: true,
         menuSection: "Pasta",
         menuName: "Penne Arrabiata",
         menuImg: "public\Images\Pasta\Penne-Arrabiata.png",
@@ -177,11 +176,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 13,
-        isFood: true,
         menuSection: "Pasta",
         menuName: "Spagetti Bolognese",
         menuImg: "public\Images\Pasta\Spagetti-Bolognese.png",
@@ -192,11 +191,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 14,
-        isFood: true,
         menuSection: "Dessert",
         menuName: "Chocolate Tart",
         menuImg: "public\Images\Dessert\chocolate tart.png",
@@ -207,11 +206,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 15,
-        isFood: true,
         menuSection: "Dessert",
         menuName: "Fruit Salad",
         menuImg: "public\Images\Dessert\fruit-salad.png",
@@ -222,11 +221,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 16,
-        isFood: true,
         menuSection: "Dessert",
         menuName: "Ice Cream",
         menuImg: "public\Images\Dessert\ice-cream.png",
@@ -237,11 +236,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 17,
-        isFood: true,
         menuSection: "Dessert",
         menuName: "Panna Cotta",
         menuImg: "public\Images\Dessert\panna-cotta.png",
@@ -252,11 +251,11 @@ const menuData = [
             isVegetarian: false,
             isVegan: false,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 18,
-        isFood: true,
         menuSection: "Dessert",
         menuName: "Tiramisu",
         menuImg: "public\Images\Dessert\tiramisu.png",
@@ -267,11 +266,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: false,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 19,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Beer",
         menuImg: "public\Images\Drinks\beer.png",
@@ -282,11 +281,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: false,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 20,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Coffee",
         menuImg: "public\Images\Drinks\coffee.png",
@@ -297,11 +296,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 21,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Cola",
         menuImg: "public\Images\Drinks\cola.png",
@@ -312,11 +311,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 22,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Lemonade",
         menuImg: "public\Images\Drinks\lemonade.png",
@@ -327,11 +326,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 23,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Red Wine",
         menuImg: "public\Images\Drinks\red-wine.png",
@@ -342,11 +341,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 24,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "Tea",
         menuImg: "public\Images\Drinks\tea.png",
@@ -357,11 +356,11 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
     {
         menuId: 25,
-        isFood: false,
         menuSection: "Drinks",
         menuName: "White Wine",
         menuImg: "public\Images\Drinks\white-wine.png",
@@ -372,7 +371,8 @@ const menuData = [
             isVegetarian: true,
             isVegan: true,
             isGlutenFree: true,
-            }
+            },
+            isInBasket: false,
     },
 ]
 
