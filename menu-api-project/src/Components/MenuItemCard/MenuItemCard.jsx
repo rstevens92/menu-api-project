@@ -1,8 +1,6 @@
 import React , { useState } from 'react';
 import styles from "./MenuItemCard.module.scss";
 
-
-
 const MenuItemCard = (props) => {
     const {
         menuName,
@@ -17,11 +15,6 @@ const MenuItemCard = (props) => {
         isVegan,
         isGlutenFree,
     } = props.menuData.menuDietryInformation;
-
-    // const {
-    //     count,
-    //     setCount,
-    // } = props;
 
     const [count, setCount] = useState(0);
 

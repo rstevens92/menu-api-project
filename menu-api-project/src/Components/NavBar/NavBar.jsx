@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styles from './NavBar.module.scss';
 
 const NavBar = () => {
   return (
-    <div>
-        <h1>Restaurant Menu</h1>
-        <a href="/">Menu</a>
-        <a href="/basket">Basket</a>
+    <div className={styles.navbarContainer}>
+        <h1 className={styles.header}>Restaurant Menu</h1>
+        <div className={styles.linkContainer}>
+          <a className={styles.menuLink} href="/">Menu</a>
+          <a className={styles.basketLink} href="/basket">Basket</a>
+        </div>
     </div>
   )
 }

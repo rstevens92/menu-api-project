@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuItemCard from '../../Components/MenuItemCard'
 import menuData from '../../Data/Data'
+import Styles from './Dashboard.module.scss'
 
 const Dashboard = () => {
     const getStarterItems = menuData.filter((key) => key.menuSection === "Starter");
@@ -10,16 +11,16 @@ const Dashboard = () => {
     const getDrinksItems = menuData.filter((key) => key.menuSection === "Drinks");
 
   return (
-    <div>
-        <h3>Starters</h3>
+    <div className={Styles.dashboardContainer}>
+        <h3 className={Styles.sectionHeader}>Starters</h3>
         {getStarterItems.map((menuData) => <MenuItemCard menuData={menuData}/>)}
-        <h3>Pizza</h3>
+        <h3 className={Styles.sectionHeader}>Pizza</h3>
         {getPizzaItems.map((menuData) => <MenuItemCard menuData={menuData}/>)}
-        <h3>Pasta</h3>
+        <h3 className={Styles.sectionHeader}>Pasta</h3>
         {getPastaItems.map((menuData) => <MenuItemCard menuData={menuData}/>)}
-        <h3>Dessert</h3>
+        <h3 className={Styles.sectionHeader}>Dessert</h3>
         {getDessertItems.map((menuData) => <MenuItemCard menuData={menuData}/>)}
-        <h3>Drinks</h3>
+        <h3 className={Styles.sectionHeader}>Drinks</h3>
         {getDrinksItems.map((menuData) => <MenuItemCard menuData={menuData}/>)}
     </div>
   )

@@ -1,10 +1,15 @@
 import React from 'react'
 
-const BasketItemCard = () => {
+const BasketItemCard = (props) => {
+  const {
+    menuName,
+    menuPrice,
+} = props.menuData;
+
   return (
     <div>
-      <h3>Item Name</h3>
-      <h3>Item Price</h3>
+      <h3>{menuName}</h3>
+      <h3>{menuPrice}</h3>
       <h3>QTY</h3>
     </div>
   )
