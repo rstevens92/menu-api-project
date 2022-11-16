@@ -21,14 +21,14 @@ const MenuItemCard = (props) => {
   return (
     <div className={styles.menuCard}>
         <h1 className={styles.menuName}>{menuName}</h1>
-        <img src={menuImg} alt="menu item picture" />
-        <div className={styles.description}>
-            <p>{menuDescription}</p>
-            <p>{menuPrice}</p>
-            <p>{menuCalories} calories</p>
+        <img className={styles.image} src={menuImg} alt="menu item picture" />
+        <div className={styles.descriptionContainer}>
+            <p className={styles.description}>{menuDescription}</p>
+            <p className={styles.price}>{menuPrice}</p>
+            <p className={styles.calories}>{menuCalories} calories</p>
         </div>
-        <div className={styles.dietaryInformation}>
-            <p>Dietary information</p>
+        <div className={styles.dietaryInformationContainer}>
+            <p className={styles.dietaryInformationTitle}>Dietary information</p>
             {isVegetarian ? <p>Vegetarian</p> : <p></p>}
             {isVegan ? <p>Vegan</p> : <p></p>}
             {isGlutenFree ? <p>Gluten Free</p> : <p></p>}
