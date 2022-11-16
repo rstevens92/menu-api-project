@@ -3,6 +3,9 @@
 .BasketItemCardContainer {
     font-family: $secondary-font;
     color: $secondary-font-color;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid $primary-font-color;
 
     .BasketItemCardName {
 
@@ -12,8 +15,25 @@
 
     }
 
-    .BasketItemCardQty {
+    .buttons{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: 10%;
+        color: $primary-font-color;
 
+        button {
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+            border: none;
+            background-color: $secondary-background-color;
+            border-radius: 50%;
+        }
+
+        .BasketItemCardQty {
+            
+        }
     }
 
 }

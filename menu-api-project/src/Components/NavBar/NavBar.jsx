@@ -4,8 +4,9 @@ import styles from './NavBar.module.scss';
 const NavBar = () => {
   return (
     <div className={styles.navbarContainer}>
-        <a className={styles.header} href="/">House of Carbs</a>
+        <a className={styles.header} href="/">Extra Virgin</a>
         <div className={styles.linkContainer}>
+          <a className={styles.pageLink} href="/">Home</a>
           <a className={styles.pageLink} href="/menu">Menu</a>
           <a className={styles.pageLink} href="/basket">Basket</a>
           <a className={styles.pageLink} href="/booking">Bookings</a>

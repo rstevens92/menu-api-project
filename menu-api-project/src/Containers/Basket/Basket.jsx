@@ -13,6 +13,9 @@ const Basket = (props) => {
     <div className={styles.basketContainer}>
         <h2 className={styles.basketHeader}>Basket</h2>
         <BasketItemCard menuData={menuData[0]}/>
+        <BasketItemCard menuData={menuData[3]}/>
+        <BasketItemCard menuData={menuData[7]}/>
+        <BasketItemCard menuData={menuData[13]}/>
         <BasketTotal />
     </div>
   )
