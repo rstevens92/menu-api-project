@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+
+.menuContainer {
+    background-color: $primary-background-color;
+
+    .header {
+        font-family: $primary-font;
+        font-size: 50px;
+        color: $primary-font-color;
+        background-color: $secondary-background-color;
+    }
+
+    .sectionHeader {
+        font-family: $primary-font;
+        font-size: 35px;
+        color: $primary-font-color;
+        background-color: $secondary-background-color;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.bookingContainer {
+
+    .bookingHeader{
+        font-family: $primary-font;
+        font-size: 50px;
+        color: $primary-font-color;
+        background-color: $secondary-background-color;
+    }
+
+    .bookingText{
+        font-family: $secondary-font;
+        color: $secondary-font-color;
+    }
+}

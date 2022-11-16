@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.totalContainer {
+
+    .totalText{
+        font-family: $secondary-font;
+        color: $secondary-font-color;
+    }
+
+    .totalButton{
+        border: none;
+        background-color: $secondary-background-color;
+        font-family: $secondary-font;
+        color: $secondary-font-color;
+        font-size: 20px;
+        border-radius: 30%;
+    }
+}

@@ -28,7 +28,7 @@ const MenuItemCard = (props) => {
             <p className={styles.calories}>{menuCalories} calories</p>
         </div>
         <div className={styles.dietaryInformationContainer}>
-            <p className={styles.dietaryInformationTitle}>Dietary information</p>
+            {/* <p className={styles.dietaryInformationTitle}>Dietary information</p> */}
             {isVegetarian ? <p>Vegetarian</p> : <p></p>}
             {isVegan ? <p>Vegan</p> : <p></p>}
             {isGlutenFree ? <p>Gluten Free</p> : <p></p>}

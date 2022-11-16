@@ -8,25 +8,23 @@
 
     .header {
         font-family: $primary-font;
-        font-size: 60px;
+        font-size: 75px;
         color: $primary-font-color;
+        background-color: $secondary-background-color;
+        text-decoration: none;
     }
 
     .linkContainer {
         font-family: $secondary-font;
         font-size: 30px;
         color: $secondary-font-color;
+        background-color: $secondary-background-color;
 
-        .menuLink {
+        .pageLink {
             padding: 30px;
             text-decoration: none;
             color: $secondary-font-color;
-        }
-
-        .basketLink{
-            padding: 30px;
-            text-decoration: none;
-            color: $secondary-font-color;
+            background-color: $secondary-background-color;
         }
     }
 }

@@ -4,12 +4,12 @@ import styles from './NavBar.module.scss';
 const NavBar = () => {
   return (
     <div className={styles.navbarContainer}>
-        <h1 className={styles.header}>House of Carbs</h1>
+        <a className={styles.header} href="/">House of Carbs</a>
         <div className={styles.linkContainer}>
-          <a className={styles.menuLink} href="/">Menu</a>
-          <a className={styles.basketLink} href="/basket">Basket</a>
-          <a className={styles.basketLink} href="/booking">Bookings</a>
-          <a className={styles.basketLink} href="/contact">Contact Us</a>
+          <a className={styles.pageLink} href="/menu">Menu</a>
+          <a className={styles.pageLink} href="/basket">Basket</a>
+          <a className={styles.pageLink} href="/booking">Bookings</a>
+          <a className={styles.pageLink} href="/contact">Contact Us</a>
         </div>
     </div>
   )
