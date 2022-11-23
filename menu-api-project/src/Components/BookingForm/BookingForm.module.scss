@@ -1,5 +1,40 @@
 @import '../../variables.scss';
 
-.datePicker {
-    
+.bookingForm {
+    font-family: $secondary-font;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    .bookingFormContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .labelForm {
+            color: $secondary-font-color;
+            font-size: 20px;
+        }
+
+        .inputForm{
+            background-color: $secondary-background-color;
+            border: $secondary-font-color;
+            color: $secondary-font-color;
+            width: 250px;
+            height: 30px;
+        }
+
+
+    }
+            .button{
+                margin: 10px;
+                border: none;
+                background-color: $secondary-background-color;
+                font-family: $secondary-font;
+                color: $secondary-font-color;
+                font-size: 20px;
+                border-radius: 30%;
+                align-self: center;
+
+        }
 }

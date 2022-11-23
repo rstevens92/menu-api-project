@@ -6,8 +6,6 @@ import menuData from '../../Data/Data'
 import styles from './Basket.module.scss'
 
 const Basket = (props) => {
-
-
   return (
 
     <div className={styles.basketContainer}>
@@ -16,7 +14,7 @@ const Basket = (props) => {
         <BasketItemCard menuData={menuData[3]}/>
         <BasketItemCard menuData={menuData[7]}/>
         <BasketItemCard menuData={menuData[13]}/>
-        <BasketTotal />
+        <BasketTotal/>
     </div>
   )
 }

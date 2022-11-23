@@ -24,7 +24,7 @@ const MenuItemCard = (props) => {
         <img className={styles.image} src={menuImg} alt="menu item picture" />
         <div className={styles.descriptionContainer}>
             <p className={styles.description}>{menuDescription}</p>
-            <p className={styles.price}>{menuPrice}</p>
+            <p className={styles.price}>£{menuPrice}</p>
             <p className={styles.calories}>{menuCalories} calories</p>
         </div>
         <div className={styles.dietaryInformationContainer}>

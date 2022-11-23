@@ -7,6 +7,7 @@ import Basket from './Containers/Basket/Basket';
 import Menu from './Containers/Menu/Menu';
 import Booking from './Containers/Booking/Booking'
 import Contact from './Containers/Contact';
+import Footer from './Components/Footer';
 import NotFound from './Containers/NotFound/NotFound';
 
 import styles from './App.module.scss';
@@ -25,6 +26,7 @@ function App() {
         <Booking path="/booking"/>
         <NotFound default/>
       </Router>
+      <Footer />
     </div>
   );
 }

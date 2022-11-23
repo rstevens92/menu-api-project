@@ -1,18 +1,25 @@
 @import '../../variables.scss';
 
 .totalContainer {
+    margin: 50px;
 
-    .totalText{
+    .totalText {
         font-family: $secondary-font;
         color: $secondary-font-color;
+        margin: 20px;
     }
 
-    .totalButton{
+    .totalButton {
+        margin: 20px;
         border: none;
         background-color: $secondary-background-color;
         font-family: $secondary-font;
         color: $secondary-font-color;
         font-size: 20px;
         border-radius: 30%;
+    }
+
+    .totalPopup {
+        
     }
 }
